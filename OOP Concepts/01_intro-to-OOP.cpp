@@ -4,9 +4,11 @@ using namespace std;
 // Class Definition
 class Student {
 public:
+// properties
     string name;
     int age;
 
+    // methods
     void display() {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
