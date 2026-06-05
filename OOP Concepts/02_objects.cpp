@@ -2,8 +2,8 @@
 using namespace std;
 
 class Student {
-    string name;
-    float cgpa;
+    string name;   
+    float cgpa;  
 
     void getPercentage(){
         cout << (cgpa * 10)<< "% \n";
